@@ -1,0 +1,6 @@
+# everything under Data/ is ignored
+
+Data/
+.DS_Store
+.idea/
+__pycache__/
