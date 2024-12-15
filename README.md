@@ -119,11 +119,14 @@ The 2D model demonstrates:
 - Consistent Symmetric Mean Absolute Percentage Error (sMAPE)
 
 ### Comparative Performance
-
-| Dataset | Metric | 2D Model | Linear Regression | XGBoost | Prophet |
-|---------|--------|----------|------------------|---------|---------|
-| Applications | MAE | 0.06 | 0.28 | 1.10 | 1.07 |
-| Customer Subscription | RMSE | 0.17 | 0.44 | 0.27 | 1.03 |
+| Dataset               | Metric | 2D Model | Linear Regression | XGBoost | Prophet |
+|-----------------------|--------|----------|-------------------|---------|---------|
+| **Applications**      | MAE    | 0.06     | 0.28              | 1.10    | 1.07    |
+| **Applications**      | RMSE   | 0.24     | 0.53              | 1.05    | 1.03    |
+| **Applications**      | sMAPE  | 6.45     | 27.32             | 182.66  | 51.85   |
+| **Customer Subscription** | MAE  | 0.03     | 0.19              | 0.07    | 1.07    |
+| **Customer Subscription** | RMSE   | 0.17     | 0.44              | 0.27    | 1.03    |
+| **Customer Subscription** | sMAPE  | 3.28     | 24.39             | 7.87    | 52.81   |
 
 ## Limitations
 
