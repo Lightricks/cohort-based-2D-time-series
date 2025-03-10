@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository implements a novel two-dimensional (2D) time series forecasting approach designed to enhance predictive accuracy in small data environments, particularly for subscription-based and cohort-level analyses. Our method transforms traditional time series data into a 2D matrix representation, providing robust forecasting capabilities for businesses with limited historical data.
+This repository implements a novel two-dimensional (2D) time series forecasting approach designed to enhance predictive accuracy in small data environments, particularly for subscription-based and cohort-level analyses. Our method transforms traditional time series data into a 2D matrix representation, enabling reliable long-horizon predictions and providing robust forecasting capabilities for businesses with limited historical data.
 
 ### Key Features
 
@@ -141,6 +141,10 @@ Our 2D forecasting model demonstrates significant improvements over traditional 
 
 ### Comparative Performance
 
+The following table compares our model against standard approaches using two datasets:
+- **Applications**: Based on internal company data
+- **Customer Subscription**: Based on external data
+
 | Dataset                    | Metric | 2D Model | Linear Regression | XGBoost | Prophet |
 |----------------------------|--------|----------|-------------------|---------|---------|
 | **Applications**           | MAE    | 0.06     | 0.28              | 1.10    | 1.07    |
@@ -178,7 +182,7 @@ Guttel, Y., et al. (2025). Enhancing Forecasting with a 2D Time Series Approach 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
